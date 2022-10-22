@@ -122,22 +122,22 @@ ul.separator {
     list-style: none;
     padding: 0;
     width: 100%;
-  }
-  
-  ul.separator li {
+}
+
+ul.separator li {
     padding-top: .5em;
-  }
-  
-  ul.separator li::after {
+}
+
+ul.separator li::after {
     content: "";
     display: block;
     border-bottom: 2px solid #CCC;
     padding-top: .5rem;
-  }
-  
-  ul.separator li:last-child::after {
+}
+
+ul.separator li:last-child::after {
     display: none;
-  }
+}
 
 
 /* textos das imagens */
@@ -206,20 +206,20 @@ footer {
 }
 
 footer button {
-        position: relative;
-        top: 1%;
-    
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 2.3rem;
-        text-align: center;
-        color: white;
-    
-        background: #2E948A;
-        border-radius: 6rem;
-        padding: 0.5rem 2rem;
-        border: 2px solid #FFFFFF;
+    position: relative;
+    top: 1%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    text-align: center;
+    color: white;
+
+    background: #2E948A;
+    border-radius: 6rem;
+    padding: 0.5rem 2rem;
+    border: 2px solid #FFFFFF;
 }
 
 .logo-footer {
